@@ -13,5 +13,29 @@ public class CustomButtonOptionPanes {
 		
 		//use a switch statement to do something cool for each option
 		
+		switch(input) {
+		case 0:
+			JOptionPane.showMessageDialog(null, "EH");
+			break;
+		case 1:
+			JOptionPane.showMessageDialog(null, "darn");
+			break;
+		case 2:
+			JOptionPane.showMessageDialog(null, "oh no");
+			break;
+		case 3:
+			JOptionPane.showMessageDialog(null, "ok...");
+			break;
+		case 4:
+			JOptionPane.showMessageDialog(null, "almost");
+			break;
+		case 5:
+			JOptionPane.showMessageDialog(null, "yay");
+			break;
+		case 6:
+			JOptionPane.showMessageDialog(null, "YAY");
+		}
+			
+		
 	}
 }
